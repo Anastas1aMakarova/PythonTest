@@ -1,0 +1,186 @@
+@font-face
+{
+    font-family: 'Suisse';
+    font-weight: 500;
+    src: url('https://pictures.s3.yandex.net/fonts/landings/SuisseIntl-Book.woff'),
+    url('https://pictures.s3.yandex.net/fonts/landings/SuisseIntl-Book.woff2');
+}
+
+@font-face
+{
+    font-family: 'Suisse';
+    font-weight: 400;
+    src: url('https://pictures.s3.yandex.net/fonts/landings/SuisseIntl-Regular.woff'),
+    url('https://pictures.s3.yandex.net/fonts/landings/SuisseIntl-Regular.woff2');
+}
+
+@font-face
+{
+    font-family: 'Suisse';
+    font-weight: 600;
+    src: url('https://pictures.s3.yandex.net/fonts/landings/SuisseIntl-SemiBold.woff'),
+    url('https://pictures.s3.yandex.net/fonts/landings/SuisseIntl-SemiBold.woff2');
+}
+
+@font-face
+{
+    font-family: 'Yandex Sans';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+
+    src: url('https://pictures.s3.yandex.net/fonts/ys/YSText-Light-Web.woff2') format('woff2'),
+    url('https://pictures.s3.yandex.net/fonts/ys/YSText-Light-Web.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Yandex Sans';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+
+    src: url('https://pictures.s3.yandex.net/fonts/ys/YSText-Regular-Web.woff2') format('woff2'),
+    url('https://pictures.s3.yandex.net/fonts/ys/YSText-Regular-Web.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Yandex Sans';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+
+    src: url('https://pictures.s3.yandex.net/fonts/ys/YSText-RegularItalic-Web.woff2') format('woff2'),
+    url('https://pictures.s3.yandex.net/fonts/ys/YSText-RegularItalic-Web.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Yandex Sans';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+
+    src: url('https://pictures.s3.yandex.net/fonts/ys/YSText-Bold-Web.woff2') format('woff2'),
+    url('https://pictures.s3.yandex.net/fonts/ys/YSText-Bold-Web.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Yandex Sans';
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+
+    src: url('https://pictures.s3.yandex.net/fonts/ys/YSText-Medium-Web.woff2') format('woff2'),
+    url('https://pictures.s3.yandex.net/fonts/ys/YSText-Medium-Web.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'YSDisplay';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+
+    src: url('https://pictures.s3.yandex.net/fonts/ys/YSDisplay-Light.woff2') format('woff2'),
+    url('https://pictures.s3.yandex.net/fonts/ys/YSDisplay-Light.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'YSDisplay';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+
+    src: url('https://pictures.s3.yandex.net/fonts/ys/YSDisplay-Regular.woff2') format('woff2'),
+    url('https://pictures.s3.yandex.net/fonts/ys/YSDisplay-Regular.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'YSDisplay';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+
+    src: url('https://pictures.s3.yandex.net/fonts/ys/YSDisplay-Bold.woff2') format('woff2'),
+    url('https://pictures.s3.yandex.net/fonts/ys/YSDisplay-Bold.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'YSDisplay';
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+
+    src: url('https://pictures.s3.yandex.net/fonts/ys/YSDisplay-Medium.woff2') format('woff2'),
+    url('https://pictures.s3.yandex.net/fonts/ys/YSDisplay-Medium.woff') format('woff');
+}
+
+h2
+{
+    font-family: 'Suisse', sans-serif;
+    font-size: 30pt;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2vh;
+}
+
+p, table
+{
+    font-family: 'Yandex Sans', sans-serif;
+    font-size: 15pt;
+}
+
+p
+{
+    width: 90%;
+    margin: 3vh auto;
+}
+
+table
+{
+    border: 1px solid #edeff1;
+    border-spacing: 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+tr
+{
+    height: 5vh;
+}
+
+tr.colored
+{
+    background-color: #efeff4;
+}
+
+tr.header
+{
+    background-color: #efeff4;
+}
+
+tr.header th
+{
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+tr, td, th
+{
+    border: none;
+
+}
+
+td
+{
+    text-align: center;
+}
